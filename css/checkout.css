@@ -1,0 +1,144 @@
+.check1{
+  /* border: 2px solid red; */
+  height: 250px;
+  width: 80%;
+  margin: 90px;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  /* border: 1px solid #eee; */
+
+}
+th{
+   border: 1px solid #eee;
+  /* border: 2px solid red; */
+  background: #fafafa;
+  padding: 1.387em;
+  text-align: left;
+
+  color: #666;
+}
+td{
+  border: 1px solid #eee;
+ /* border: 2px solid red; */
+ /* background: #fafafa; */
+ padding: 1.387em;
+ text-align: left;
+
+ color: #666;
+}
+.tr1 a{
+  text-decoration: none;
+  padding: 4px 10px;
+  text-transform: none;
+  font-size: 14px;
+  background: #fff;
+  color: #444;
+  border: 1px solid #eee;
+  font-weight: 500;
+
+}
+
+.tr1{
+  box-sizing: border-box;
+
+}
+.check2{
+    border: 1px solid #eee;
+    padding: 1.387em;
+    margin: 0px 86px 21px;
+    width: 75%;
+}
+.check2 legend{
+  display: inline-block !Important;
+  width: 100%;
+padding: 0;
+margin-bottom: 20px;
+font-size: 21px;
+line-height: inherit;
+color: #333;
+border: 0;
+border-bottom: 1px solid #e5e5e5;
+}
+fieldset p{
+      margin: 0 0 10px;
+}
+.edd-label{
+  font-weight: 700;
+display: block;
+position: relative;
+line-height: 100%;
+font-size: 95%;
+margin: 0 0 5px;
+}
+.edd-input{
+  display: inline-block;
+    width: 100%;
+    border: 1px solid #eee;
+    height: 30px;
+}
+.check3{
+  border: 1px solid #eee;
+  padding: 1.387em;
+  margin: 0px 86px 21px;
+  width: 75%;
+}
+strong {
+    font-weight: 700;
+}
+ .edd-submit {
+    background-color: #00bba7;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 5px solid rgba(0,0,0,0.1);
+    font-size: 17px;
+    font-weight: 700;
+    height: 2.5em;
+}
+.edd-submit:hover{
+   cursor: pointer;
+   background-color:#6fc9c5;
+
+}
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  /* fieldset{
+    display: none;
+  } */
+  .check1 {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 80%;
+  }
+  th {
+    font-size: 2rem;
+    height: 114px;
+  }
+  td {
+    font-size: 2rem;
+    height: 133px;
+  }
+  td img{
+    height: 55px;
+    width: 50px;
+  }
+  .tr1 a{
+        padding: 19px 30px;
+  }
+  .check2{
+        margin: 350px 86px 21px;
+            height: 507px;
+            font-size: 1.5rem;
+  }
+  .edd-input {
+    height: 100px;
+  }
+  .check3 {
+    height: 120px;
+  }
+  fieldset p {
+    margin: 0 0 32px;
+        font-size: 1.5rem;
+}
+}

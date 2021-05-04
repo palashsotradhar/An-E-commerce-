@@ -1,0 +1,56 @@
+#contactform input, #contactform textarea {
+    border: 0px;
+    border: 1px solid #eee;
+    width: 100%;
+    background-color: transparent;
+    padding: 14px 10px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    font-size: 14px;
+}
+#contactform .btn {
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+form{
+  margin-top: 100px;
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) {
+form {
+    margin-top: 290px;
+}
+#contactform input, #contactform textarea {
+    /* font-size: 2rem; */
+    height: 148px;
+  }
+  input,
+  input::-webkit-input-placeholder {
+      font-size: 30px;
+      line-height: 3;
+  }
+  textarea,
+  textarea::-webkit-input-placeholder {
+      font-size: 30px;
+      line-height: 3;
+  }
+  input,
+  input::-webkit-input-value{
+      font-size: 50px;
+      line-height: 3;
+  }
+  input[type=submit] {
+      width: 20em;  height: 2em;
+  }
+  #contactform .btn {
+    /* background: #333; */
+    /* color: #fff; */
+    /* border: 1px solid #333; */
+    font-size: 43px;
+  }
+}
